@@ -39,12 +39,12 @@ public class Client
 	/**
 	 * 视频平台的地址。
 	 */
-	private static final String API_HOST = "https://video.pispower.com";
+	private static final String API_HOST = "https://video.cloudak47.com";
 
 	/**
 	 * 视频平台提供的 accessKey，该字段会通过公网传输。
 	 * 
-	 * 请从ovp 开发者支持/Restful API页面获取
+	 * 请从开发者支持/Restful API页面获取
 	 */
 	private String accessKey;
 
@@ -52,7 +52,7 @@ public class Client
 	 * 视频平台提供的 accessSecret，该字段用来生成数字签名，注意保密，
 	 * 并且不要通过公网传输。
 	 * 
-	 * 请从ovp 开发者支持/Restful API页面获取
+	 * 请从开发者支持/Restful API页面获取
 	 */
 	private String accessSecret;
 
